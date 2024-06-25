@@ -1,0 +1,117 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=11;
+	taxlabels
+	Bothriechis_hussaini
+	Bothriechis_khwargi
+	Bothriechis_klebbai
+	Bothriechis_nigroadspersus
+	Bothriechis_nitidus
+	Bothriechis_rahimi
+	Bothriechis_rasikusumorum
+	Bothriechis_schlegelii
+	Bothriechis_supraciliaris
+	Bothriechis_torvus
+	Tropidolaemus_wagleri
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (Tropidolaemus_wagleri[&!rotate=true]:0.482729,(((((Bothriechis_rahimi[&!color=#ff9900]:0.017668,((Bothriechis_torvus[&!color=#33ff33]:0.016797,Bothriechis_hussaini[&!color=#cccc00]:2.0E-6)[&bp=78]:0.007521,Bothriechis_nitidus[&!color=#990099]:0.005634)[&bp=32]:0.004634)[&bp=67]:0.014596,(Bothriechis_khwargi[&!color=#33ffff]:1.0E-6,Bothriechis_klebbai[&!color=#cc0066]:1.0E-6)[&bp=98]:0.032636)[&bp=56]:0.0172,Bothriechis_rasikusumorum[&!color=#3366ff]:0.028976)[&bp=66]:0.055819,Bothriechis_supraciliaris[&!color=#669900]:0.100309)[&bp=68]:0.05888,Bothriechis_schlegelii[&!rotate=false,!color=#cc00cc]:1.0E-6)[&bp=34]:2.0E-6,Bothriechis_nigroadspersus[&!color=#ff0000,!rotate=true]:0.001715);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=3.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set colour.order.bp="bp:32,34,56,66,67,68,78,98";
+	set colour.order.label="label:32,34,56,66,67,68,78,98";
+	set colour.scheme.bp="bp:HSBDiscrete{hue,1,0.0,1.0,0.5,0.6,0.4,0.8}";
+	set colour.scheme.label="label:HSBDiscrete{hue,1,0.0,1.0,0.5,0.6,0.4,0.8}";
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="bp";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="bp";
+	set nodeLabels.displayAttribute="bp";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=16;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=true;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=true;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=9.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=3871;
+	set rectilinearLayout.rootLength=323;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=2.5;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=14;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="User Selection";
+	set trees.transform=true;
+	set trees.transformType="proportional";
+end;
+
