@@ -27,5 +27,8 @@ Repetir la filogenia realizada en la investigación de Arteaga et al. para compa
 
 ## Video informativo de la investigación
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/QDWp-xAfuDQ?si=kDV6qvi1qdUXEP-v" frameborder="0" allowfullscreen></iframe>
+[![Video](https://img.youtube.com/vi/QDWp-xAfuDQ/0.jpg
+)](https://www.youtube.com/watch?v=QDWp-xAfuDQ&t=2s)
+
+
 
