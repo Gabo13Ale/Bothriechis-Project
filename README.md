@@ -17,10 +17,10 @@ Repetir la filogenia realizada en la investigación de Arteaga et al. para compa
 4. Uso de **FigTree** para interpretación del árbol filogenético e ilustración.
 
 ## Filogenia original
-![Filogenia original](C:\Users\PC\Desktop\Bothriechis Project\Fotografías y documentos adicionales\Filogenia original.png)
+![Filogenia original](https://github.com/Gabo13Ale/Bothriechis-Project/blob/main/Fotograf%C3%ADas%20y%20documentos%20adicionales/Filogenia%20original.png)
 
 ## Filogenia ejecutada
-![Filogenia ejecutada](C:\Users\PC\Desktop\Bothriechis Project\Fotografías y documentos adicionales\muscle_Bothriechis.aln.fasta.treefile.jpg)
+![Filogenia ejecutada](https://github.com/Gabo13Ale/Bothriechis-Project/blob/main/Fotograf%C3%ADas%20y%20documentos%20adicionales/muscle_Bothriechis.aln.fasta.treefile.jpg)
 
 ## Link a paper original
 [Link a paper original](https://evolsyst.pensoft.net/article/114527/)
